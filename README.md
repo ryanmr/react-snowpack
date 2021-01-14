@@ -4,6 +4,8 @@ Learning about React with Snowpack and some fun friends.
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
+> Bootstrapped with CSA! The freshest and most local of webapps (via [@brianmitchl](https://twitter.com/brianmitchl))
+
 ### Setup
 
 ```
