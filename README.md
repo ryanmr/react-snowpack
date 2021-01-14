@@ -10,6 +10,19 @@ Learning about React with Snowpack and some fun friends.
 yarn
 ```
 
+### Commands
+
+```
+# run dev mode, using fast refresh and snowpack's bundlessness
+yarn start
+
+# run build; produces a "bundle" with the webpack plugin
+yarn build
+
+# run serve on build folder; build first
+yarn serve:build
+```
+
 ### Tech
 
 * React & friends
