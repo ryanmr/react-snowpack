@@ -33,5 +33,14 @@ yarn serve:build
 
 ### Notes
 
-* Code splitting / async routes work! (Suspense fallback simulated with 5s delay)
-* Webpack bundle works! (Makes hash.js chunks)
+* Newer syntax supported
+  * `?.` and `??`
+* Code splitting
+* Async routes work!
+  * Suspense fallback simulated with 5s delay
+* Webpack "optimized" bundle works! (Makes hash.js chunks)
+
+**Things that sort of might work maybe**
+
+* [React 17 JSX Transform](https://github.com/evanw/esbuild/issues/334#issuecomment-760427837)
+  * With React 17 in some environments, you can [omit the `import React from 'react'`](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html) but apparently that changes the way JSX works and that is not built into `esbuild` core, but there is a way to add a customized plugin to do the transform with a babel plugin - not tested here yet - [another thread](https://github.com/snowpackjs/snowpack/discussions/1681)
