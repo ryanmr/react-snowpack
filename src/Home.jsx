@@ -27,6 +27,16 @@ export function Home() {
           </Link>{" "}
           (async load)
         </p>
+        <p>
+          Go to{" "}
+          <Link
+            className={tw`text-blue-700 hover:text-blue-900 underline`}
+            to="/page3"
+          >
+            page 3
+          </Link>{" "}
+          (sync load)
+        </p>
       </div>
     </div>
   );

@@ -4,6 +4,8 @@ import { Home } from "./Home";
 import { Page1 } from "./Page1";
 import delay from "delay";
 import { AsyncLoading } from "./AsyncLoading";
+import { Page3 } from "./Page3";
+import { NotFound } from "./404";
 
 const LazyPage2 = React.lazy(async () => {
   await delay(5000); // simulate network latency
@@ -26,6 +28,12 @@ export function App() {
             <Suspense fallback={<AsyncLoading />}>
               <LazyPage2 />
             </Suspense>
+          </Route>
+          <Route path="/page3">
+            <Page3 />
+          </Route>
+          <Route>
+            <NotFound />
           </Route>
         </Switch>
       </Router>
