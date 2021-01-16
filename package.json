@@ -8,22 +8,24 @@
   "devDependencies": {
     "@snowpack/plugin-react-refresh": "^2.4.0",
     "@snowpack/plugin-webpack": "^2.3.0",
-    "prettier": "^2.2.1",
-    "serve": "^11.3.2",
-    "snowpack": "^3.0.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^2.2.1",
+    "serve": "^11.3.2",
+    "snowpack": "^3.0.1"
   },
   "dependencies": {
     "delay": "^4.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-query": "^3.5.14",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "twind": "^0.11.2"
+    "twind": "^0.11.2",
+    "uuid": "^8.3.2"
   }
 }
